@@ -93,7 +93,6 @@ a#rssSN:hover {
 .quote p, .quote a {
   display: inline-block;
 }
-
 .quote p {
   float: left;
   max-width: 70%;
@@ -107,60 +106,69 @@ a#rssSN:hover {
 }
 /*-----Home Boxes-----*/
 
-div.homeBox {
+.homeBox {
   margin: 0 auto 10px;
 }
-div.hb {
+.hb {
   margin: 0 auto;
   display: inline-block;
   width: 30%;
 }
-div.box2 {
-  margin: 0 4%;
+.box2 {
+  margin: 0 4.5%;
 }
-div.hb img {
+.hb img {
   width: 100%;
   height: auto;
   border: 5px solid #eeeeee;
   box-sizing: border-box;
 }
-div.hb a {
+.hb a {
   text-decoration: none;
 }
-/*-----FOOTER-----*/
+/*----------FOOTER----------*/
 
 footer {
   background-color: black
 }
-div.footnote {
+/*-----listingLinks-----*/
+
+.footnote {
   width: 90%;
-  margin: 0 auto™;
+  margin: 0 auto;
 }
-div.listingLinks {
+.listingLinks {
   display: inline-block;
+  vertical-align: top;
   width: 30%;
   left: 100px;
-  padding: 0 20px;
   box-sizing: border-box;
 }
-h2.fnTitle {
-  color: white;
-}
-div.listingLinks ul li a, div.listingLinks p {
-  color: #bbbbbb;
-}
-div.listingLinks p {
-  border-top: 1px solid #bbbbbb;
-}
-div.listingLinks ul li a {
-  text-decoration: none;
-}
-div.listingLinks ul li {
-  padding: 5px 0;
-  border-top: 1px solid #bbbbbb;
-  border-bottom: 1px solid #bbbbbb;
-}
-div.listingLinks ul {
+.listingLinks ul {
   list-style-type: none;
   padding-left: 0;
+}
+.listingLinks li {
+  padding: 0.2em 0;
+  border-bottom: 1px solid #bbbbbb;
+}
+.listingLinks li:first-child, .listingLinks p {
+  padding: 0.2em 0;
+  border-top: 1px solid #bbbbbb;
+}
+.listingLinks a {
+  text-decoration: none;
+}
+.whiteFont {
+  color: white;
+}
+.greyFont, .greyFont a {
+  color: #bbbbbb;
+}
+.listingLink1, .listingLink3 {
+  width: 20%;
+}
+.listingLink2 {
+  width: 50%;
+  margin: 0 4%;
 }
