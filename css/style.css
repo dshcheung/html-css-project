@@ -81,6 +81,10 @@ a#rssSN:hover {
 }
 /*-----Quote-----*/
 
+.quoteHead {
+  width: 100%;
+  height: auto;
+}
 .quote {
   display: inline-block;
   width: 100%;
@@ -133,9 +137,9 @@ footer {
 }
 /*-----listingLinks-----*/
 
-.footnote {
+.footnote, .copyRight {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 .listingLinks {
   display: inline-block;
@@ -171,4 +175,19 @@ footer {
 .listingLink2 {
   width: 50%;
   margin: 0 4%;
+}
+
+/*-----Copy Right-----*/
+
+.cr1, .cr2 {
+  display: inline;
+}
+.cr1 {
+  width: 200px;
+}
+.cr2 {
+  width: 265px;
+}
+#gFriendLink {
+  color: #00e0ff;
 }
