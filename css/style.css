@@ -1,0 +1,59 @@
+body {
+
+}
+
+nav {
+  background: black;
+  height: 60px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Arial";
+  padding-right: 50px;
+  vertical-align: bottom;
+  line-height: 60px;
+}
+
+nav a:first-child {
+  margin-left: 50px;
+}
+
+span.topStuff {
+  margin: 10px 0 10px 0;
+}
+
+span.logo a{
+  text-indent: -9999px;
+  float: left;
+  background: url("../images/logo.png");
+  height: 54px;
+  width: 291px;
+}
+
+span.socialNav a{
+  text-indent: -9999px;
+  float: right;
+  display: inline-block;
+  height: 48px;
+  width: 48px
+}
+
+#lnSN {
+  background: url("../images/linkedin-grey.png");
+}
+
+#twitterSN {
+  background: url("../images/twitter-grey.png");
+}
+#fbSN {
+  background: url("../images/facebook-grey.png");
+}
+
+#rssSN {
+  background: url("../images/rss-grey.png");
+}
+
+.banner {
+  margin: 10px auto 10px auto;
+}
