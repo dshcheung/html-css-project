@@ -84,7 +84,7 @@ a#rssSN:hover {
 .quote {
   display: inline-block;
   width: 100%;
-  height: 70px;
+  height: 74px;
   border: 2px solid #eeeeee;
   padding: 10px;
   box-sizing: border-box;
@@ -92,7 +92,6 @@ a#rssSN:hover {
 }
 .quote p, .quote a {
   display: inline-block;
-  margin: auto 0;
 }
 
 .quote p {
@@ -109,14 +108,15 @@ a#rssSN:hover {
 /*-----Home Boxes-----*/
 
 div.homeBox {
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 div.hb {
+  margin: 0 auto;
   display: inline-block;
   width: 30%;
 }
 div.box2 {
-  margin: 0 1%;
+  margin: 0 4%;
 }
 div.hb img {
   width: 100%;
