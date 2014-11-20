@@ -1,7 +1,10 @@
 /*----------BODY----------*/
 /*-----Navigation-----*/
 
-body {} nav {
+body {
+  margin: 0;
+} 
+nav {
   background: black;
   height: 60px;
 }
