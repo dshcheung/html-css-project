@@ -10,7 +10,7 @@ nav a {
   text-decoration: none;
   font-family: "Arial";
   padding-right: 50px;
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
   line-height: 60px;
 }
 nav a:first-child {
@@ -18,7 +18,7 @@ nav a:first-child {
 }
 /*-Section off for 90% width for rest of body-*/
 
-section {
+.mainContent {
   width: 90%;
   margin: 0 auto;
 }
@@ -81,24 +81,26 @@ a#rssSN:hover {
 }
 /*-----Quote-----*/
 
-.quoteHead {
+/*.quoteHead {
   width: 100%;
   height: auto;
-}
+  border: 2px solid #aaaaaa;
+}*/
 .quote {
-  display: inline-block;
+  /*display: block;*/
   width: 100%;
   height: 74px;
-  border: 2px solid #eeeeee;
+  border: 1px solid #dddddd;
   padding: 10px;
   box-sizing: border-box;
   margin: 0 0 10px;
 }
-.quote p, .quote a {
+.quote span, .quote a {
   display: inline-block;
+  vertical-align: middle;
 }
-.quote p {
-  float: left;
+.quote span {
+  /*float: left;*/
   max-width: 70%;
 }
 .quote a {
@@ -121,6 +123,10 @@ a#rssSN:hover {
 .box2 {
   margin: 0 4.5%;
 }
+/*.hb h1, .hb img, .hb p, .hb a {
+  width: 100%;
+}*/
+
 .hb img {
   width: 100%;
   height: auto;
@@ -180,12 +186,13 @@ footer {
 /*-----Copy Right-----*/
 
 .cr1, .cr2 {
-  display: inline;
+  display: inline-block;
 }
 .cr1 {
   width: 200px;
 }
 .cr2 {
+  float:right;
   width: 265px;
 }
 #gFriendLink {
